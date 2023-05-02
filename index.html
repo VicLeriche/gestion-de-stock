@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Gestion de stock</title>
+</head>
+<body>
+    <header>
+        <input type="text" id="titre" placeholder="Enterer le titre du livre">
+        <input type="text" id="lien" placeholder="Entrer le lien du livre">
+        <button id="ajouter"><span>+</span></button>
+    </header>
+    <div class="bocl1">
+        <h1>Livres vous avez a lire</h1>
+         <ul class="alire" id="alire">
+            <li>Premier livre<i class="fa-solid fa-trash-can"></i><i class="fa-sharp fa-solid fa-cart-shopping"></i><i class="fa-solid fa-check"></i></li>
+            <li>Premier livre</li>
+            <li>Premier livre</li>
+         </ul>
+    </div>
+    <div class="bocl1">
+        <h1>Livres vous avez a lu</h1>
+        <ul class="lu" id="lu">
+           <li>Premier livre</li>
+           <li>Premier livre</li>
+           <li>Premier livre</li>
+        </ul>
+   </div>
+   <script src="./js/main.js"></script>
+</body>
+</html>
